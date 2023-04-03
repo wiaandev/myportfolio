@@ -1,0 +1,310 @@
+@charset "utf-8";
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : Enthor - Creative Portfolio WordPress Theme
+* Author : backtheme
+* Author URI : https://backtheme.tech/
+*
+* ----------------------------------------------------------------------------
+*
+**/
+
+@media only screen and (min-width: 1300px) {
+	.container{
+		max-width: 1200px;
+		width: 100%;
+	}
+}
+
+/* Layout: Min 992px to Higher. */
+
+@media only screen and (min-width: 992px) {
+	.menu-area .mobile-menu-link, 
+	.menu-area .mobile-menu-container {
+	    display: none;
+	}
+	.contents-sticky.full-layout-left {
+		order: 2;
+	}
+	.padding-full-layout-left .dynamic-sidebar {
+	  	padding: 0px 20px 20px 0;
+	}
+	.mobile-menus{
+		display: none;
+	}
+}
+
+
+
+/* Medium Layout:1199px. */
+
+@media only screen and (max-width: 1199px) {
+	.footer-bottom .container {
+	  	padding: 36px 15px;
+	}
+	.menu-area .navbar ul li a {
+		padding-left: 0px;
+	}
+	.back-phone a {
+	  	font-size: 13px;
+	}
+	.menu-area .navbar ul li > a{
+	  	font-size: 14px;
+	}
+	.offcanvas-icon {
+	  	margin: 0 0 0 15px;
+	}
+	#back-header .back-quote {
+	  	margin-left: 18px;
+	}
+	.back-header-two .container {
+	  	max-width: 1020px;
+	}
+	.back-breadcrumbs .breadcrumbs-single {
+	  	background-position-x: 8%;
+	}
+	.back-animated-heading .description br{
+		display: none;
+	}
+}
+
+/* Medium Layout: 991px. */
+
+@media only screen and (max-width: 991px) {
+    #back-header .toolbar-area.mobile_topbar_hide{
+    	display: none;
+    }
+    .sidebarmenu-area{
+    	display: none;
+    }
+    .sidenav .widget_nav_menu ul li a{
+    	color: #ffffffc4;
+    }
+    #back-header .logo-area .site-title a {
+      	padding: 20px 0;
+    }
+    .footer-0 {
+      	padding-right: 15px;
+    }
+    #back-header .logo-area {
+      	line-height: 1.5;
+    }
+    #back-header .logo-area a {
+      	font-size: 27px;
+    }
+    .footer-1, .footer-2 {
+      	padding-left: 15px;
+      	padding-top: 20px;
+    }
+    .sidebarmenu-area.back-mobile-hamburger{
+        display: block !important;
+    }
+    #back-header .toolbar-area .toolbar-contact ul{
+    	text-align: center;
+    }
+    #back-header .toolbar-area .toolbar-sl-share ul {
+      	text-align: center;
+  	}
+    .back-cols.back-menu-responsive{
+    	display: none;
+    }
+    .sidenav .widget_nav_menu ul li a {
+      	padding: 9px 0;
+      	line-height: 26px;
+  	}
+  	#back_mobile_menu_here .submenu-button:before,
+  	#back_mobile_menu_here .submenu-button.submenu-opened:after{
+  		color: #0a0a0a;
+  	}
+  	#back_mobile_menu_here .sub-menu .submenu-button{
+  		top: 0;
+  	}
+  	body.logged-in .back-menu-wrap-offcanvas, .back-menu-wrap-offcanvas{
+	  	padding: 55px 50px 50px 50px;
+	}
+	.sidenav .widget_nav_menu ul li+li {
+	  	border-top: 1px solid #222;
+	}
+	.sidenav .widget_nav_menu ul li:last-child{
+		border-bottom: none !important;
+	}
+	#back-header .back-table-wrap {
+	  	padding: 10px 0;
+	}
+	.dynamic-sidebar {
+	  	padding: 0px 0 20px 0;
+	  	margin-top: 50px;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.back-footer .copyright.text-left {
+	  	text-align: center !important;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu {
+	  	justify-content: center;
+	}
+	.back-clients-slider2 .inner-items{
+		display: block;
+	}
+	.back-clients-slider2 .inner-items .back-testimonial-content {
+	  	max-width: 100%;
+	  	text-align: left;
+	  	padding-left: 0;
+	}
+	.back-clients-slider2 .inner-items .back-author {
+	  	max-width: 201px;
+	  	transform: skewY(0deg);
+	}
+	.portfolio_style_8 .back_popup_content .content__item-text {
+	  	padding-left: 0;
+	  	padding-top: 40px;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li:first-child a{
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+	.back-footer .col-md-6.back-copy-menu{
+		order: 2;
+	}
+	.back-portfolio-grid-style6 .single-case-studies .inner-case-studies {
+	  	display: block;
+	}
+	.back-portfolio-grid-style6 .single-case-studies .inner-case-studies .case-content {
+	  	padding: 30px 0 0;
+	}
+	.backtb {
+	  	display: block;
+	}
+	.backtb .tab-image img {
+	  	padding-left: 0;
+	}
+	.portfolio_style_8 .back_popup_content {
+	  display: block;
+	}
+	.back-hero-slider .hero-inner-slide .video-icon {
+		position: relative;
+		height: 100px;
+		width: 100px;
+		top: 0;
+		transform: translateY(0);
+		margin-top: 50px;
+	}
+	.back-breadcrumbs .breadcrumbs-inner {
+	    padding: 90px 0 90px;
+	}
+	.back-portfolio-grid-style7 .single-case-studies .case-img {
+	  	position: relative;
+	  	top: 0;
+	  	left: 0;
+	  	transform: unset;
+	  	overflow: visible;
+	  	visibility: visible;
+	}
+	.back-portfolio-grid-style7 .single-case-studies .case-img img {
+	  	transform: scale(1);
+	  	width: 100%;
+	}
+	.back-portfolio-grid-style7 .single-case-studies .back-port-btn {
+	  	display: block;
+	}
+	.back-portfolio-grid-style7 .back-port-meta{
+		margin-top: 20px;
+	}
+	.back-portfolio-grid-style7 .single-case-studies .case-content .back-port-title {
+	  	margin: 0 0 15px;
+	}
+	.back-portfolio-grid-style7 .single-case-studies .back-port-btn .back-btn{
+		padding: 13px 26px 12px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu {
+	  	display: block;
+	  	text-align: center;
+	}
+	#back-header .back-table-wrap{
+		padding: 0;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li a{
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li a:after{
+		display: none;
+	}
+	.back-hero-slider.back-unique-slider .slick-next,
+	.back-hero-slider.back-unique-slider .slick-prev{
+		display: none !important;
+	}
+	#back-header .back-header-quote .sidebarmenu-search-here,
+	#back-header .back-header-quote .back-phone{
+		display: none;
+	}
+	.back-tab-here ul.nav.nav-tabs li button{
+		margin-bottom: 20px;
+	}
+	#back-header .back-quote a {
+	  	font-size: 13px;
+	  	padding: 12px 20px 10px 20px;
+	}
+	.back-breadcrumbs .page-title{
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.blog .back-blog .blog-item .full-blog-content, 
+	.archive .back-blog .blog-item .full-blog-content {
+	  	padding: 0 20px 30px;
+	}
+	.back-breadcrumbs .breadcrumbs-single {
+	  	background-position-x: 8%;
+	}
+	body.logged-in .back-menu-wrap-offcanvas, 
+	.back-menu-wrap-offcanvas {
+	    padding: 55px 32px 50px 32px;
+	}
+	.back-menu-wrap-offcanvas .inner-offcan .back-nav-link {
+	    left: 33px;
+	}
+	.back-tab-here ul.back__experience {
+	   display: block;
+	}
+	.back-tab-here ul.back__skills li {
+	   flex: 0 0 22%;
+	   margin-bottom: 22px;
+	}
+	.back-tab-here ul.back__skills li.back__skill_text {
+	  	padding-bottom: 20px;
+	}
+	.back-tab-here ul.back__skills {
+	  	padding-bottom: 10px;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	#back-header .toolbar-area .toolbar-contact ul li,
+	#back-header .toolbar-area .toolbar-sl-share ul li{
+	  	line-height: 26px;
+	}
+	#back-header .toolbar-area .opening {
+	  	border-right: none;
+	  	display: block !important;
+	  	padding-right: 0;
+	  	margin-right: 0;
+	}
+	#back-header .toolbar-area .toolbar-contact ul li.back-contact-phone{
+	  	margin-right: 0;
+	  	padding-right: 0;
+	}
+	#back-header.back-header-two .toolbar-area .opening {
+	  	border-right: none;
+	}
+	#back-header .toolbar-area .toolbar-sl-share ul li + li {
+	  	margin: 0 8px 6px;
+	}
+}

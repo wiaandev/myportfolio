@@ -1,0 +1,15 @@
+.back-admin-input{
+	margin: 10px 0;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.back-admin-input label,
+.back-admin-input label input{
+	width: 150px;
+}
+.back-admin-input input{
+	width: 300px;
+}
